@@ -1,0 +1,184 @@
+body {
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(38, 34, 32);
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between ;
+    background-color: rgb(29, 27, 26);
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.logo img{
+    
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-menu li{
+    margin: 20px;
+    list-style: none;
+}
+.nav-icon {
+    margin: 10px;
+}
+.nav-icon img{
+        height: 30px;
+        width: 30px;
+        margin: 10px;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(29, 27, 26);
+
+}
+
+.Quarter-container-1 h1{
+    color: orange;
+    border-bottom: 2px solid orange;
+
+}
+/* .Quarter-container-1{
+    width: 100px;
+    height: 2px;
+
+} */
+.Quarter-container-1 img{
+height: 20px;
+width: 20px;
+    margin: 10px;
+}
+
+.Quarter-container-2 {
+    background-color: rgb(38, 34, 32);
+    border-radius: 50%;
+    width: 250px;
+    height: 200px;
+    display: flex;
+}
+
+.Quarter-container-2 img {
+    width: 200px;
+    height: 180px;
+}
+.Quarter-container-3 img{
+    margin: 5px;
+}
+
+.Quarter-container-3 p img{
+    height: 20px;
+    width: 30px;
+    margin: 5px;
+    float: right;
+}
+
+.linkbar {
+    background-color:rgb(38, 34, 32) ;
+    border-radius: 5px;
+    width: 1000px;
+    height: 100px;
+    margin-left: 190px;
+    margin-top: -30px;
+    box-shadow: 1px 1px 5px black;
+    display: flex;
+    justify-content: space-around;
+}
+.linkbar div{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(29, 27, 26);
+    width: 150px;
+    height: 60px; 
+    border-radius: 5px ;
+  /* box-shadow: 1px 1px 10px black; */
+    margin: 10px;  
+}
+
+.linkbar div img {
+    width: 100px;
+    height: 50px;
+}
+.container-2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    padding: 10px;
+}
+
+.Quarter-first-half-container-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.Quarter-first-half-container-2 div h1 {
+    color: orange;
+}
+.second-half-container-2 div{
+    display: flex;
+    border-bottom: 2px solid white;
+    margin: 10px;
+    padding: 10px;
+}
+.second-half-container-2 div p span{
+    display: block;
+}
+.second-half-container-2 div img
+{
+    margin: 5px;
+    width: 150px;
+    height: 100px;
+}
+.second-half-container-2 div p img {
+    height: 20px;
+width: 20px;
+    margin: 10px;
+    float: right;
+
+}
+.main-card{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.card{
+  
+    box-shadow: 1px 1px 10px black;
+    margin: 10px;
+    padding: 10px;
+    background-color:rgb(29, 27, 26) ;
+
+}.card p,h1{
+    padding: 10px;
+}
+.card img{
+    margin: 10px;
+    height: 80px;
+    width: 100px ;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    box-shadow: 1px 1px 10px black;
+    background-color:rgb(29, 27, 26) ;
+  
+}
+
+.footer div {
+    margin: 50px;
+    padding: 10px;
+    height: 220px;
+}
